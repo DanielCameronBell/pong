@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <SDL.h>
-// <-- pretty sure this isn't right
+
 using namespace std;
 
 int main(int argc, char const *argv[])
