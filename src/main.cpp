@@ -2,18 +2,13 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-//#include "SDL.h"
+#include <SDL.h>
 // <-- pretty sure this isn't right
 using namespace std;
-//int main( int argc, char *argv[]){
 
-//	SDL_init( SDL_init_EVERYTHING );
 int main(int argc, char const *argv[])
 {
-
+	SDL_Init( SDL_INIT_EVERYTHING );
+	SDL_Quit();
 	return 0;
 }
-
-//	SDL_QUIT();
-//return 0;
-//}
