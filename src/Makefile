@@ -1,2 +1,2 @@
 all:
-	g++ main.cpp -o pong
+	g++ -I/usr/include/SDL2 main.cpp -o pong
